@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0000999999975" prefWidth="693.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="juegosistemas.SistemareproductorController">
+  <children>
+    <Label layoutX="41.0" layoutY="27.0" prefHeight="55.0" prefWidth="638.0" text="FEMALE REPRODUCTIVE SYSTEM">
+      <font>
+        <Font name="Forte" size="40.0" />
+      </font>
+    </Label>
+    <ImageView fitHeight="396.0" fitWidth="412.0" layoutX="41.0" layoutY="98.0" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="file:/C:/Users/USUARIO/Documents/NetBeansProjects/Juegosistemas/src/recursos/sistema%20reproductor.jpg" />
+      </image>
+    </ImageView>
+    <Label layoutX="525.0" layoutY="422.0" text="ENDOMETRIO">
+      <font>
+        <Font name="Agency FB Negrita" size="24.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="524.0" layoutY="356.0" text="CUELLO" />
+    <Label font="$x1" layoutX="525.0" layoutY="297.0" text="VAGINA" />
+    <Label font="$x1" layoutX="525.0" layoutY="235.0" text="UTERO" />
+    <Label font="$x1" layoutX="525.0" layoutY="171.0" text="OVARIO" />
+    <Label font="$x1" layoutX="525.0" layoutY="112.0" text="TROMPA" />
+  </children>
+</AnchorPane>

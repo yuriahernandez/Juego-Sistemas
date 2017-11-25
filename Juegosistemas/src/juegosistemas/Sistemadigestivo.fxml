@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0000999999975" prefWidth="692.9998779296875" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="juegosistemas.SistemadigestivoController">
+  <children>
+    <Label layoutX="150.0" layoutY="14.0" prefHeight="55.0" prefWidth="380.0" text="DIGESTIVE SYSTEM">
+      <font>
+        <Font name="Forte" size="40.0" />
+      </font>
+    </Label>
+    <ImageView fitHeight="418.0001220703125" fitWidth="416.0000305175781" layoutX="45.0" layoutY="84.0" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="@../recursos/sistema%20digestivo%20final.jpg" />
+      </image>
+    </ImageView>
+    <Label layoutX="490.0" layoutY="279.0" prefHeight="29.0" prefWidth="168.0" text="INTESTINO GRUESO">
+      <font>
+        <Font name="Agency FB Negrita" size="24.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="490.0" layoutY="233.0" prefHeight="27.0" prefWidth="110.0" text="PÁNCREAS" />
+    <Label font="$x1" layoutX="490.0" layoutY="187.0" prefHeight="27.0" prefWidth="87.0" text="HÍGADO" />
+    <Label font="$x1" layoutX="490.0" layoutY="144.0" prefHeight="29.0" prefWidth="110.0" text="GLÁNDULAS" />
+    <Label contentDisplay="RIGHT" font="$x1" layoutX="490.0" layoutY="99.0" prefHeight="26.999900000002526" prefWidth="71.0" text="BOCA" wrapText="false" />
+    <Label font="$x1" layoutX="490.0" layoutY="325.0" prefHeight="27.0" prefWidth="96.0" text="ANO" />
+    <Label font="$x1" layoutX="490.0" layoutY="372.0" prefHeight="29.0" prefWidth="122.0" text="ESTÓMAGO" />
+    <Label font="$x1" layoutX="490.0" layoutY="423.0" prefHeight="29.0" prefWidth="168.0" text="INTESTINO DELGADO" />
+  </children>
+</AnchorPane>
